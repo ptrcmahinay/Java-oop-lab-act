@@ -21,7 +21,7 @@ Hello, World! I wanted to document and put these lab activities in my github rep
 
 
 ## Midterm Examination [Code](lab_act_files/Exam.java) 
-- The exam about copy constructors.
+- The exam is about copy constructors.
 
 <details>
 <summary>The exam with fill in the blanks</summary>
@@ -90,5 +90,4 @@ public class Rectangle {
 ```
 
 </details>
-
 
