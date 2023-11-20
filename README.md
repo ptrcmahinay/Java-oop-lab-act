@@ -19,3 +19,76 @@ Hello, World! I wanted to document and put these lab activities in my github rep
 - In this lab we used `parameterized constructors` and `if-else` statements to print the whether the average is ood or even.
 
 
+
+## Midterm Examination [Code](lab_act_files/Exam.java) 
+- The exam about copy constructors.
+
+<details>
+<summary>The exam with fill in the blanks</summary>
+<br>
+
+```java
+
+public class Rectangle {
+    private double width;
+    private double height;
+
+    public Rectangle(double width, double height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    // Constructor to create a square
+    public Rectangle(double side) {
+        this.width = side;
+        this.height = side;
+    }
+
+    // Copy constructor
+    public Rectangle(Rectangle rectangle) {
+        this.width = rectangle.________;
+        this.height = rectangle.________;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    @Override
+    public String toString() {
+        return "Rectangle {width=" + width + ", height=" + height + "}";
+    }
+
+    public static void main(String[] args) {
+        Rectangle ________ = new Rectangle(10.0, 5.0);
+        Rectangle ________ = new Rectangle(8.0);
+
+        System.out.println("Rectangle 1: " + rectangle1);
+        System.out.println("Rectangle 2: " + rectangle2);
+
+        Rectangle ________ = new Rectangle(________);
+        System.out.println("Rectangle 3: " + rectangle3);
+    }
+
+   //  What is the output of this code?
+   // _____________________________________
+   // _____________________________________
+   // _____________________________________
+}
+```
+
+</details>
+
+
