@@ -49,7 +49,7 @@ public class Exam {
         System.out.println("Rectangle 1: " + exam1);
         System.out.println("Rectangle 2: " + exam2);
 
-        Exam exam3 = new Exam(exam1);
-        System.out.println("Rectangle 3: " + exam3);
+        Exam exam3 = new Exam(exam2);
+        System.out.println("Rectangle 3: (copy of Rectangle2) " + exam3);
     }
 }
