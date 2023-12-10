@@ -18,7 +18,8 @@ Hello, World! I wanted to document and put these lab activities in my github rep
 ### 5. [Lab Activity 5](lab_act_files/Lab5.java) 
 - In this lab we used `parameterized constructors` and `if-else` statements to print the whether the average is ood or even.
 
-
+### 5. [Lab Activity 6](lab_act_files/Lab6.java) 
+- in this lab we used one of the pillars of OOP `Inheritance`
 
 ## Midterm Examination [Code](lab_act_files/Exam.java) 
 - The exam is about copy constructors.
@@ -79,7 +80,7 @@ public class Rectangle {
         System.out.println("Rectangle 2: " + rectangle2);
 
         Rectangle ________ = new Rectangle(________);
-        System.out.println("Rectangle 3: " + rectangle3);
+        System.out.println("Rectangle 3: (copy of rectangle2)" + rectangle3);
     }
 
    //  What is the output of this code?
